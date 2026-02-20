@@ -3,10 +3,10 @@
 Based on: https://ai-trend.jp/programming/python/nest-for/
 """
 
-# 例1: 九九の表を出力する (Example 1: Multiplication table)
-print("=== 九九の表 (Multiplication Table) ===")
-for i in range(1, 10):
-    for j in range(1, 10):
+# 例1: 19×19の表を出力する (Example 1: Multiplication table)
+print("=== 19×19の表 (Multiplication Table) ===")
+for i in range(1, 20):
+    for j in range(1, 20):
         print(f"{i} × {j} = {i * j:2d}", end="  ")
     print()  # 改行
 
@@ -14,8 +14,8 @@ print()
 
 # 例2: マトリックス形式で表示 (Example 2: Display in matrix format)
 print("=== マトリックス形式 (Matrix Format) ===")
-for i in range(1, 10):
-    for j in range(1, 10):
+for i in range(1, 20):
+    for j in range(1, 20):
         print(f"{i * j:3d}", end=" ")
     print()  # 改行
 
