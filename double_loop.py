@@ -7,7 +7,7 @@ Based on: https://ai-trend.jp/programming/python/nest-for/
 print("=== 19×19の表 (Multiplication Table) ===")
 for i in range(1, 20):
     for j in range(1, 20):
-        print(f"{i} × {j} = {i * j:2d}", end="  ")
+        print(f"{i} × {j} = {i * j:3d}", end="  ")
     print()  # 改行
 
 print()
